@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>P1</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript" src="codigo.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <h1>JavaScript</h1>
+      <ul>
+        <li><a href="pagina.html">Inicio</a></li>
+        <li id="seleccionado">Formulario</li>
+        <li><a href="sig_ejercicio.html">SigEjercicio</a></li>
+        <li><a href="musica.html">Música</a></li>
+      </ul>
+    </header>
+    <nav>
+
+    </nav>
+    <div id="cuerpo" class="centrar">
+      <hr/>
+      <main>
+        <div id="a">
+          <h2 id="subtitulo">FORMULARIO</h2>
+        </div>
+        <div id="b">
+          <form id="formulario" action="mostrar.js" method="post" name="form">
+            <p class="texto">Nombre: </p><input type="text" id="nombre" value=""/><br/>
+            <p class="texto">Correo: &nbsp;</p><input type="text" id="correo" value=""/><br/>
+            <p class="texto">Numero: </p><input type="number" id="numero" value=""/><br/>
+            <button onclick="mostrar()">MOSTRAR</button>
+          </form>
+        </div>
+        <!-- <p id="insertanombre"></p> -->
+      </main>
+      <aside>
+        <img id="img" width="100%" src="img/i3.png" alt="Desarrollador Web">
+      </aside>
+    </div>
+    <footer>
+      <h3>Autor: Noa</h3>
+      <h3>Correo: hno3838@gmail.com</h3>
+      <h3>Bases de programación</h3>
+    </footer>
+  </body>
+</html>
